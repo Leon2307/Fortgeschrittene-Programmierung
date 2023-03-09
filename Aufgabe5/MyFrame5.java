@@ -5,8 +5,6 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JTextField;
 
-import org.w3c.dom.events.Event;
-
 import java.awt.GridLayout;
 import java.awt.Container;
 import java.awt.event.*;
