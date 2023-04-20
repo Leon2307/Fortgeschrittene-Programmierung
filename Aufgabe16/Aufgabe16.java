@@ -2,7 +2,7 @@ package Aufgabe16;
 
 import java.util.Date;
 
-import Prog1Tools.*;;
+import Prog1Tools.IOTools;
 
 public class Aufgabe16 {
     public static void main(String[] args) {
