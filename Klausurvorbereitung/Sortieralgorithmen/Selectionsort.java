@@ -14,12 +14,12 @@ public class Selectionsort {
     public static int[] sort(int[] arr) {
         for (int i = 1; i < arr.length; i++) {
             for (int j = i; j > 0; j--) {
-                if(arr[j]>=arr[j-1]){
+                if (arr[j] >= arr[j - 1]) {
                     continue;
                 }
                 int tmp = arr[j];
-                arr[j] = arr[j-1];
-                arr[j-1] = tmp;
+                arr[j] = arr[j - 1];
+                arr[j - 1] = tmp;
             }
         }
         return arr;
